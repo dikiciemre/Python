@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1254\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \
+K-Means ve Hiyerar\uc0\u351 ik K\'fcmeleme, veri madencili\u287 i ve makine \'f6\u287 renimi alanlar\u305 nda kullan\u305 lan iki farkl\u305  k\'fcmeleme (clustering) y\'f6ntemidir. Her ikisi de veri noktalar\u305 n\u305  benzerliklerine g\'f6re gruplara ay\u305 rmak i\'e7in kullan\u305 l\u305 r, ancak farkl\u305  yakla\u351 \u305 mlar\u305  vard\u305 r. \u304 \u351 te her iki y\'f6ntemin ne oldu\u287 u ve \'f6rneklerle nas\u305 l kullan\u305 ld\u305 \u287 \u305 na dair a\'e7\u305 klamalar:\
+\
+**1. K-Means K\'fcmeleme:**\
+\
+K-Means k\'fcmeleme, veri noktalar\uc0\u305 n\u305  \'f6nceden belirlenmi\u351  say\u305 da K k\'fcmesine ay\u305 rmay\u305  ama\'e7layan bir iteratif ve merkez-tabanl\u305  bir yakla\u351 \u305 md\u305 r. \u304 \u351 leyi\u351  \u351 u ad\u305 mlarla ger\'e7ekle\u351 ir:\
+\
+- Ba\uc0\u351 lang\u305 \'e7ta, K k\'fcme merkezi (centroid) rastgele se\'e7ilir veya veri noktalar\u305 ndan rastgele se\'e7ilen K nokta ba\u351 lang\u305 \'e7 merkezleri olarak kullan\u305 l\u305 r.\
+- Her veri noktas\uc0\u305 , en yak\u305 n k\'fcme merkezine atan\u305 r.\
+- Her bir k\'fcme i\'e7in yeni bir merkez hesaplan\uc0\u305 r, bu merkez o k\'fcmeye ait veri noktalar\u305 n\u305 n ortalamas\u305 d\u305 r.\
+- Veri noktalar\uc0\u305  yeniden atan\u305 r ve bu i\u351 lem belirli bir yak\u305 nsama kriteri sa\u287 lanana kadar tekrar eder.\
+\
+\'d6rnek: Bir m\'fc\uc0\u351 teri verisi k\'fcmesini ele alal\u305 m. K-Means kullanarak, m\'fc\u351 terileri belirli \'f6zelliklere (\'f6rne\u287 in, harcama miktar\u305  ve al\u305 \u351 veri\u351  s\u305 kl\u305 \u287 \u305 ) g\'f6re belirli say\u305 da k\'fcme (\'f6rne\u287 in, 3 k\'fcme) halinde gruplayabilirsiniz.\
+\
+**2. Hiyerar\uc0\u351 ik K\'fcmeleme (Agglomerative Clustering):**\
+\
+Hiyerar\uc0\u351 ik K\'fcmeleme, veri noktalar\u305 n\u305  bir a\u287 a\'e7 yap\u305 s\u305  i\'e7inde gruplara ay\u305 ran bir k\'fcmeleme y\'f6ntemidir. \u304 \u351 leyi\u351  \u351 u ad\u305 mlarla ger\'e7ekle\u351 ir:\
+\
+- Ba\uc0\u351 lang\u305 \'e7ta, her veri noktas\u305  bir k\'fcme olarak kabul edilir.\
+- Her ad\uc0\u305 mda, en yak\u305 n iki k\'fcme birle\u351 tirilir ve bu birle\u351 me i\u351 lemi hiyerar\u351 ik bir a\u287 a\'e7ta kaydedilir.\
+- Bu i\uc0\u351 lem, t\'fcm veri noktalar\u305  tek bir b\'fcy\'fck k\'fcme olu\u351 ana kadar devam eder.\
+- A\uc0\u287 a\'e7 yap\u305 s\u305 , k\'fcmelemeyi farkl\u305  seviyelerde inceleme f\u305 rsat\u305  sunar. Yani, istenirse daha az veya daha \'e7ok k\'fcme olu\u351 turulabilir.\
+\
+\'d6rnek: Genetik verileri analiz ederken, farkl\uc0\u305  genetik profillere sahip bireyleri hiyerar\u351 ik bir a\u287 a\'e7 yap\u305 s\u305  i\'e7inde grupland\u305 rabilirsiniz. Bu, genetik benzerliklere dayal\u305  olarak farkl\u305  alt-pop\'fclasyonlar\u305  veya gruplar\u305  tan\u305 mlamak i\'e7in kullan\u305 \u351 l\u305  olabilir.\
+\
+Her iki y\'f6ntem de veri analizinde ve veri madencili\uc0\u287 inde kullan\u305 lan g\'fc\'e7l\'fc k\'fcmeleme y\'f6ntemleridir. Hangi y\'f6ntemi kullanman\u305 z gerekti\u287 i, veri k\'fcmenizin yap\u305 s\u305 na, ama\'e7lar\u305 n\u305 za ve verilerinizdeki benzerliklere ba\u287 l\u305  olarak de\u287 i\u351 ebilir.}
